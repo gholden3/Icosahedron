@@ -148,7 +148,7 @@ void display(void)
   // Set the viewing transformation
   gluLookAt(0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0);
   glTranslatef(250, 250, 0);
-  glScalef(200.0, 200.0, 0);
+  glScalef(200.0, 200.0, 200);
   //drawTriangle();
   switch(testNumber)
     {
